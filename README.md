@@ -1,1 +1,3 @@
-# task-list with PHP (LaraveL)
+# task-list
+
+Used technologies: HTML, CSS, PHP Laravel, Tailwind CSS, Alpine.js
