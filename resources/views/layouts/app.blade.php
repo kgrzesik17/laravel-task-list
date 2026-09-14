@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel Task List App</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    {{-- blade-formatter-disable --}}
+    <style type="text/tailwindcss">
+        .btn {
+            @apply rounded-md px-2 py-1 text-center font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 cursor-pointer
+        }
+
+        .link {
+            @apply font-medium text-gray-700 underline decoration-pink-500
+        }
+    </style>
+    {{-- blade-formatter-enable --}}
+
     @yield('styles')
 </head>
 <body class="container mx-auto mt-10 mb-10 max-w-lg">
